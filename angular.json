@@ -96,6 +96,13 @@
             ],
             "scripts": []
           }
+        },
+        "github-pages": {
+          "builder": "@angular-devkit/build-angular:github-pages",
+          "options": {
+            "baseHref": "/angular-tour-heroes/",
+            "outputPath": "dist/angular-tour-heroes"
+          }
         }
       }
     }
