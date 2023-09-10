@@ -3,7 +3,7 @@
     <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center" *ngFor="let heroe of superHeroes">
       <div class="card mt-5" style="width: 18rem;">
         <div class="ratio ratio-4x3">
-          <img *ngIf="heroe.photo" [src]="heroe.photo" alt="Heroe Photo" class="card-img-top img-fluid">
+          <img *ngIf="heroe.photo" [src]="heroe.photo" alt="Heroe Photo" loading="lazy" class="card-img-top">
         </div>
         <div class="card-body">
           <h5 class="card-title">{{heroe.name}}</h5>
